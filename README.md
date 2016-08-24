@@ -16,9 +16,21 @@ And then execute:
 $ bundle
 ```
 
+Add the following to application.js
+```
+//= require jstz
+```
+
 Or install it yourself as:
 ```bash
 $ gem install jstz-rails
+```
+
+## Usage
+Invoke the script by calling
+```
+var tz = jstz.determin(); // determines the time zone of the browser client
+tz.name(); // Returns the name of the time zone eg "Europe/Berlin"
 ```
 
 ## Contributing

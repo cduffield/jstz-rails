@@ -29,7 +29,7 @@ $ gem install jstz-rails
 ## Usage
 Invoke the script by calling
 ```
-var tz = jstz.determin(); // determines the time zone of the browser client
+var tz = jstz.determine(); // determines the time zone of the browser client
 tz.name(); // Returns the name of the time zone eg "Europe/Berlin"
 ```
 

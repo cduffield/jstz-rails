@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Jstz::Rails::VERSION
   s.authors     = ["Chip Duffield"]
   s.email       = ["chip.duffield@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Jstz::Rails."
-  s.description = "TODO: Description of Jstz::Rails."
+  s.homepage    = "https://github.com/cduffield/jstz-rails"
+  s.summary     = "The jsTimezoneDetect.js library"
+  s.description = "This script gives you the time zone information from a client's devise"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
